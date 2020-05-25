@@ -1,0 +1,332 @@
+{
+  "version": "1.0",
+  "tool_version": "2.1",
+  "id": "ITM",
+  "isMedicalDevice": true,
+  "language": "SL",
+  "result": {
+    "resultRanges": {
+      "bmi": {
+        "title": "ITM",
+        "shouldShowPoints": true,
+        "pointsFrom": -1.0,
+        "activityLevel": "siva",
+        "displayFormat": "-",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "red1": {
+        "title": "Močno premalo telesne teže",
+        "shouldShowPoints": true,
+        "pointsFrom": 0.0,
+        "activityLevel": "rdeča",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "orange1": {
+        "title": "Zmerno premalo",
+        "shouldShowPoints": true,
+        "pointsFrom": 16.0,
+        "activityLevel": "oranžna",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "yellow1": {
+        "title": "Rahlo prenizka teža",
+        "shouldShowPoints": true,
+        "pointsFrom": 17.0,
+        "activityLevel": "rumena",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "green1": {
+        "title": "Normalna teža",
+        "shouldShowPoints": true,
+        "pointsFrom": 18.5,
+        "activityLevel": "zelena",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "yellow2": {
+        "title": "Prekomerna teža",
+        "shouldShowPoints": true,
+        "pointsFrom": 25.0,
+        "activityLevel": "rumena",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "orange2": {
+        "title": "Debeli razred I",
+        "shouldShowPoints": true,
+        "pointsFrom": 30.0,
+        "activityLevel": "oranžna",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "red2": {
+        "title": "Debeli razred II",
+        "shouldShowPoints": true,
+        "pointsFrom": 35.0,
+        "activityLevel": "rdeča",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "deepRed2": {
+        "title": "Debeli razred III",
+        "shouldShowPoints": true,
+        "pointsFrom": 40.0,
+        "activityLevel": "deepRed",
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      }
+    }
+  },
+  "sections": {
+    "questions": {
+      "weight": {
+        "type": "številka",
+        "title": "Utež",
+        "minValue": 1,
+        "maxValue": 300,
+        "isDecimal": true,
+        "unitID": "težaKg",
+        "units": {
+          "kg": {
+            "title": "kg"
+          }
+        },
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      },
+      "height": {
+        "type": "številka",
+        "title": "Višina",
+        "minValue": 1,
+        "maxValue": 250,
+        "isDecimal": true,
+        "unitID": "višinaCM",
+        "units": {
+          "cm": {
+            "title": "cm"
+          }
+        },
+        "resultHasRichText": true,
+        "titleHasRichText": true,
+        "explanationHasRichText": true
+      }
+    }
+  },
+  "infoSections": {
+    "instructionsForUse": {
+      "headerTitle": "Navodila za uporabo",
+      "footerTitle": "Različica: 8. 1. 2020",
+      "infoItems": {
+        "instructionsForUse1": {
+          "type": "besedilo",
+          "title": "<b> Splošni opis </b> <br> Indeks telesne mase (BMI) je najpogosteje uporabljena antropometrična metoda za merjenje debelosti, ki se izračuna kot teža posameznika v kilogramih, deljena z višino v kvadratnih metrih.",
+          "titleHasRichText": true
+        },
+        "instructionsForUse2": {
+          "type": "besedilo",
+          "title": "<b> Predvideni uporabniki </b> <br> zdravstveni delavci",
+          "titleHasRichText": true
+        },
+        "instructionsForUse3": {
+          "type": "besedilo",
+          "title": "<b> Predvidena uporaba </b> <br> Izračun indeksa telesne mase (ITM)",
+          "titleHasRichText": true
+        },
+        "instructionsForUse4": {
+          "type": "besedilo",
+          "title": "<b> Namenska populacija bolnikov </b> <br> Odrasli",
+          "titleHasRichText": true
+        },
+        "instructionsForUse5": {
+          "type": "besedilo",
+          "title": "<b> Medicinska stanja, ki jih je treba diagnosticirati / zdraviti / spremljati </b> <br> Debelost",
+          "titleHasRichText": true
+        },
+        "instructionsForUse6": {
+          "type": "besedilo",
+          "title": "<b> Merila za izbiro pacientov </b> <br> Brez",
+          "titleHasRichText": true
+        },
+        "instructionsForUse7": {
+          "type": "besedilo",
+          "title": "<b> Navedbe </b> <br> Brez",
+          "titleHasRichText": true
+        },
+        "instructionsForUse8": {
+          "type": "besedilo",
+          "title": "<b> Kontraindikacije </b> <br> Jih ni",
+          "titleHasRichText": true
+        }
+      }
+    },
+    "warnings": {
+      "headerTitle": "Opozorila",
+      "infoItems": {
+        "clinicalJudgement": {
+          "type": "besedilo",
+          "title": "<b> Orodja ne nadomestijo klinične presoje </b> <br> Orodja ne morejo nadomestiti klinične presoje in ne smejo biti edini dejavnik pri sprejemanju odločitev. Samo zdravstveni delavci, ki upoštevajo značilnosti posameznega pacienta, razen tistih, ki so predstavljeni v orodjih, lahko poleg zunanjih dejavnikov (kot je lokalna razširjenost pogojev, ki so na diferencialni diagnozi) sprejemajo odločitve za vodenje posameznega pacienta.",
+          "titleHasRichText": true
+        },
+        "correctInput": {
+          "type": "besedilo",
+          "title": "<b> Orodja so odvisna od vnosa pravilnih podatkov </b> <br> Orodja je odvisna od točnosti vnesenih podatkov. Vedno ste odgovorni za preverjanje rezultata in uporabo vaše najboljše presoje.",
+          "titleHasRichText": true
+        },
+        "recommendedUpdates": {
+          "type": "besedilo",
+          "title": "<b> Priporočene posodobitve </b> <br> Da bi zagotovili varen in optimiziran zagon aplikacije, priporočamo, da namestite posodobitve programske opreme takoj, ko bodo na voljo. Če za to aplikacijo niste omogočili samodejnih posodobitev, posodobite aplikacijo z opozorilom v viru ali v pogovornem oknu z opozorili v aplikaciji.",
+          "titleHasRichText": true
+        }
+      }
+    },
+    "referenceValues": {
+      "headerTitle": "Referenčne vrednosti",
+      "infoItems": {
+        "referenceValues1": {
+          "type": "rezultat",
+          "title": "Močno premalo telesne teže",
+          "pointRange": "< 16",
+          "activityLevel": "rdeča",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues2": {
+          "type": "rezultat",
+          "title": "Zmerno premalo",
+          "pointRange": "16-16,99",
+          "activityLevel": "oranžna",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues3": {
+          "type": "rezultat",
+          "title": "Rahlo prenizka teža",
+          "pointRange": "17-18,49",
+          "activityLevel": "rumena",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues4": {
+          "type": "rezultat",
+          "title": "Normalna teža",
+          "pointRange": "18,5-24,99",
+          "activityLevel": "zelena",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues5": {
+          "type": "rezultat",
+          "title": "Prekomerna teža",
+          "pointRange": "25-29,99",
+          "activityLevel": "rumena",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues6": {
+          "type": "rezultat",
+          "title": "Debeli razred I",
+          "pointRange": "30-34,99",
+          "activityLevel": "oranžna",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues7": {
+          "type": "rezultat",
+          "title": "Debeli razred II",
+          "pointRange": "35-39,99",
+          "activityLevel": "rdeča",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "referenceValues8": {
+          "type": "rezultat",
+          "title": "Debeli razred III",
+          "pointRange": "≥ 40",
+          "activityLevel": "deepRed",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        }
+      },
+      "resultHasRichText": true,
+      "titleHasRichText": true,
+      "explanationHasRichText": true
+    },
+    "intro": {
+      "headerTitle": "Pojasnilo",
+      "infoItems": {
+        "instructions1": {
+          "type": "besedilo",
+          "title": "Indeks telesne mase (BMI) je preprost indeks teže za višino, ki se običajno uporablja za razvrščanje prenizke teže, prekomerne teže in debelosti pri odraslih. Opredeljena je kot teža v kilogramih, deljena s kvadratom višine v metrih (kg / m²).",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        }
+      },
+      "resultHasRichText": true,
+      "titleHasRichText": true,
+      "explanationHasRichText": true
+    },
+    "formula": {
+      "headerTitle": "Formula",
+      "infoItems": {
+        "formula1": {
+          "type": "besedilo",
+          "title": "BMI = teža / višina²",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        }
+      },
+      "resultHasRichText": true,
+      "titleHasRichText": true,
+      "explanationHasRichText": true
+    },
+    "references": {
+      "headerTitle": "Reference",
+      "infoItems": {
+        "reference1": {
+          "type": "besedilo",
+          "title": "Keys, Ancel; Fidanza, Flaminio; Karvonen, Martti J .; Kimura, Noboru; Taylor, Henry L. (1972). \"Indeksi relativne teže in debelosti\". Časopis za kronične bolezni 25 (6–7): 329–43.",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        },
+        "reference2": {
+          "type": "besedilo",
+          "title": "\"Klasifikacija BMI\". Globalna baza podatkov o indeksu telesne mase Svetovna zdravstvena organizacija. 2006. http://apps.who.int/bmi/index.jsp?introPage=intro_3.html Pridobljeno maja 2016.",
+          "resultHasRichText": true,
+          "titleHasRichText": true,
+          "explanationHasRichText": true
+        }
+      },
+      "resultHasRichText": true,
+      "titleHasRichText": true,
+      "explanationHasRichText": true
+    }
+  },
+  "tool": {
+    "version": "2.1"
+  }
+}
